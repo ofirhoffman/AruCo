@@ -1,4 +1,5 @@
 streamlit
 scikit-image
 opencv-contrib-python-headless
+opencv-contrib-python
 numpy
