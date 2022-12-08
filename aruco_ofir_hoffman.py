@@ -284,6 +284,6 @@ if app_mode == 'Segment an Image':
     st.sidebar.image(image)
     
         # Display the result on the right (main frame)
-    st.subheader('f'Object has an area = ', area, 'cm\N{SUPERSCRIPT TWO}')  
+    st.subheader('Object has an area = ', area, 'cm\N{SUPERSCRIPT TWO}')  
     st.image(masked_image, use_column_width=True)
 
