@@ -90,7 +90,7 @@ if app_mode == 'About App':
     )
 
     # add a video to the page
-    st.image(demo.jpg, caption= 'an example of how the image should be')
+    st.image(DEMO_IMAGE , caption= 'an example of how the image should be')
 
 
     st.markdown('''
