@@ -4,3 +4,4 @@ opencv-contrib-python-headless
 numpy
 matplotlib.pyplot
 scipy
+/home/appuser/venv/bin/python -m pip install --upgrade pip
