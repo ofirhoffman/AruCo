@@ -90,7 +90,7 @@ if app_mode == 'About App':
     )
 
     # add a video to the page
-    st.image(demo.jpg, caption= an example of how the image should be)
+    st.image(demo.jpg, caption= 'an example of how the image should be')
 
 
     st.markdown('''
@@ -224,12 +224,12 @@ if app_mode == 'Segment an Image':
     leaf_count = np.sum(np.array(masked_image_grayscale) >0)
     bg_count = np.sum(np.array(masked_image_grayscale) ==0)
 
-    print('Leaf px count:', leaf_count, 'px')
-    print('Area:', leaf_count*pixel_cm_ratio, 'cm\N{SUPERSCRIPT TWO},', 'which is:',  f'{0.0001*leaf_count*pixel_cm_ratio:.3f}', 'm\N{SUPERSCRIPT TWO}')
+    #print('Leaf px count:', leaf_count, 'px')
+    #print('Area:', leaf_count*pixel_cm_ratio, 'cm\N{SUPERSCRIPT TWO},', 'which is:',  f'{0.0001*leaf_count*pixel_cm_ratio:.3f}', 'm\N{SUPERSCRIPT TWO}')
 
 
     
     
     # Display the result on the right (main frame)
     st.subheader('Output Image')
-    st.image(masked_image, use_column_width=True, caption= 'Area:', leaf_count*pixel_cm_ratio, 'cm\N{SUPERSCRIPT TWO},', 'which is:',  f'{0.0001*leaf_count*pixel_cm_ratio:.3f}', 'm\N{SUPERSCRIPT TWO}')
+    st.image(masked_image, use_column_width=True, caption= "'Area:', leaf_count*pixel_cm_ratio, 'cm\N{SUPERSCRIPT TWO},', 'which is:',  f'{0.0001*leaf_count*pixel_cm_ratio:.3f}', 'm\N{SUPERSCRIPT TWO}'")
