@@ -7,7 +7,7 @@ import cv2
 import numpy as np
 # vars
 DEMO_IMAGE = 'demo.jpg' # a demo image for the segmentation page, if none is uploaded
-favicon = 'favicon.png'
+favicon = 'favicon.jpg'
 
 # main page
 st.set_page_config(page_title='AruCo - ofir hoffman', page_icon = favicon, layout = 'wide', initial_sidebar_state = 'auto')
