@@ -2,6 +2,5 @@ streamlit
 scikit-image
 opencv-contrib-python-headless
 numpy
-matplotlib.pyplot
+matplotlib
 scipy
-/home/appuser/venv/bin/python -m pip install --upgrade pip
