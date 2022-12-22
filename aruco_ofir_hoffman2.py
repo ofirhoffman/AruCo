@@ -139,7 +139,7 @@ if app_mode == 'Segment an Image':
 
     # display on the sidebar the uploaded image
     st.sidebar.text('Original Image')
-    st.sidebar.image(image)
+    st.sidebar.image(img)
 
     parameters = cv2.aruco.DetectorParameters_create()
     aruco_dict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_5X5_50)
