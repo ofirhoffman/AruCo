@@ -231,5 +231,5 @@ if app_mode == 'Segment an Image':
     
     
     # Display the result on the right (main frame)
-    st.subheader('Output Image')
-    st.image(masked_image, use_column_width=True, caption= "'Area:', leaf_count*pixel_cm_ratio, 'cm\N{SUPERSCRIPT TWO},', 'which is:',  f'{0.0001*leaf_count*pixel_cm_ratio:.3f}', 'm\N{SUPERSCRIPT TWO}'")
+    st.subheader('Area:', leaf_count*pixel_cm_ratio, 'cm\N{SUPERSCRIPT TWO},', 'which is:',  f'{0.0001*leaf_count*pixel_cm_ratio:.3f}', 'm\N{SUPERSCRIPT TWO}')
+    st.image(masked_image, use_column_width=True)
