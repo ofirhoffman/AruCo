@@ -5,7 +5,6 @@ import skimage
 import matplotlib.pyplot as plt
 import cv2
 import numpy as np
-import imutils
 # vars
 DEMO_IMAGE = 'demo.jpg' # a demo image for the segmentation page, if none is uploaded
 favicon = 'favicon.png'
